@@ -1,0 +1,49 @@
+.contp{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.contpad{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.ContentDecoration{
+    background-image:url('../../images/Dating.png'); 
+    background-repeat: repeat;
+    /* background-position: center; */
+    background-size: flex; 
+    background-color: azure;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.About-page{
+    background-image: url('../../images/Ellipse1.png'),url('../../images/Ellipse2.png'); 
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+}
+
+.about-pic{
+    /* height:2rem;
+    width:2rem; */
+    padding-bottom: 1.7rem;
+}
+
+@media screen and (max-width: 960px) {
+    .about-pic{
+        height:16rem;
+        width:17.5rem; 
+        padding-bottom: 1.4rem;
+    }
+}
