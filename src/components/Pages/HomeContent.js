@@ -1,8 +1,5 @@
-import ProfileCard from "../ProfileCard"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Pages.css'
-import { useEffect } from "react";
-import { useState } from "react";
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 

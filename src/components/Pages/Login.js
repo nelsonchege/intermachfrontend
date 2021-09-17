@@ -26,6 +26,8 @@ const Login = () => {
         ).catch(
             err =>{
                 console.log(err);
+                setError(true)
+                setFormError(true)
             }
         )
 
