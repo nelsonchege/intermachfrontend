@@ -18,7 +18,7 @@ const Signup = () => {
             "email": emailSignup,
             "password": passwordSignup
         };
-        await fetch('https://hookbytribe.herokuapp.com/register/', {
+        await fetch('https://hookbytribe.herokuapp.com/account/register/', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(user)
