@@ -29,6 +29,7 @@ const CreateProfile = (props) => {
             "userTribe": tribecreateprofile,
              
         };
+        console.log(user);
         return history.push("/login");
     }
 

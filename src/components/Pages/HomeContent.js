@@ -42,29 +42,3 @@ const HomeContent = () => {
 }
  
 export default HomeContent;
-
-
-{/*<div className="col contp" > 
- <ProfileCard />
-</div>
-<div className="col contp">
-<ProfileCard />
-</div>
-<div className="col contp">
-<ProfileCard />
-</div>
-<div className="col contp">
-<ProfileCard />
-</div>
-<div className="col contp">
-<ProfileCard />
-</div>
-<div className="col contp">
-<ProfileCard />
-</div>
-<div className="col contp">
-<ProfileCard />
-</div>
-<div className="col contp">
-<ProfileCard />
-</div> */}
