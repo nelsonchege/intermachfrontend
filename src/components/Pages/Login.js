@@ -18,7 +18,7 @@ const Login = () => {
             "password": passwordLogin
         };
         
-        axios.post('http://127.0.0.1:8000/account/login/',user).then(
+        axios.post('https://hookbytribe.herokuapp.com/login/',user).then(
             res =>{
                 localStorage.setItem('jwt',res.data.jwt)
                 return history.push("/Home");
